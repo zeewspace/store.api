@@ -29,6 +29,9 @@
 		"downlevelIteration": true,
 		"declaration": true,
 
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+
 		"pretty": true
 	},
 	"include": [
