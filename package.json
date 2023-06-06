@@ -1,0 +1,22 @@
+{
+  "name": "store.api.zeew.dev",
+  "version": "1.0.0",
+  "description": "API e-commerce zeew for course",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^5.1.3"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build"
+  }
+}
