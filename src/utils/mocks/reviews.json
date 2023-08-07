@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "user": 1,
+        "product": 1,
+        "comment": "test lorem",
+        "rating": 4
+    }
+]

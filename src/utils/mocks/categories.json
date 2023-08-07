@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "category 1",
+        "parent_category": null
+    },
+    {
+        "id": 2,
+        "name": "sub Category 1",
+        "parent_category": 1
+    }
+]
